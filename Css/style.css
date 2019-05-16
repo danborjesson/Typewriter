@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans');
+
+}
+body {
+  align-items: center;
+  justify-content: center;
+  background: black;
+  
+}
+
+.list {
+  font-family: ibm-plex-mono, monospace;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+}
+
+.list2 {
+  font-family: ibm-plex-mono, monospace;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  float: right;
+  padding-left: 360px;
+  overflow: inline;
+  margin-top: -5%;
+}
+
+#textarea {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 65;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: black;
+  color: white;
+  font-weight: 100;
+  width: 600px;
+  height: 100px;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 48px;
+  border: 2px solid white;
+   overflow-x: hidden;
+}
+
+#content {
+  position: absolute;
+  overflow-y: auto;
+  display: table-caption;
+  height: 70%;
+  width: 95.50%;
+  font-size: 30px;
+  line-height: 30px;
+  font-family: ibm-plex-sans, sans-serif;
+  color: white;
+  margin-top: 36px;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  margin-left: 36px;
+ 
+}
+
+
+
+.col-container {
+  margin-left: 22px;
+  background: black;
+  color: white;
+ font-family: 'IBM Plex Mono', monospace;
+  display: table;
+  width: 100%;
+}
+.col {
+  width: 320px;
+  display: table-cell;
+  padding: 16px;
+}
