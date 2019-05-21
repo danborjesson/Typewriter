@@ -1,17 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans');
 
-
 @font-face {
-	    font-family: 'DynamikGX';
-	    src: url('https://github.com/Dynamikotf/Typewriter/blob/master/fonts/DynamikGX.ttf');
-	
-	   font-family: 'DynamikGX';
-	   src:url('../fonts/DynamikGX.ttf');
-	   font-weight: normal;
-	   font-style: normal;
-	}
-
-
+  font-family: 'DynamikGX';
+  src: url('../fonts/DynamikGX.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
 
 body {
   align-items: center;
