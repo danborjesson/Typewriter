@@ -16,12 +16,12 @@ $(window).on("keypress", function(event) {
   $output.text(ms + "ms");
   lastTime = currTime;
   // Fontweight
-  var fontWeight = ms > 900 ? 100 : 900 / ms * 100;
+  var fontWidth = ms > 900 ? 100 : 900 / ms * 100;
   // Typewriter
   var key = event.key;
-  $content.append('<span style="font-weight:' + fontWeight + '">' + key + '</span>');
+  $content.append('<span style="font-width:' + fontWidth + '">' + key + '</span>');
   //Font-Weight 
-  $("span3").text(fontWeight); 
+  $("span3").text(fontWidth); 
 });
 
 
