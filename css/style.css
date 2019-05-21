@@ -19,7 +19,7 @@ body {
   width: 95.50%;
   font-size: 30px;
   line-height: 30px;
-  font-family: 'DynamikGX';
+  font-family: 'DynamikGX', truetype;
   color: white;
   margin-top: 36px;
   overflow-x: hidden;
