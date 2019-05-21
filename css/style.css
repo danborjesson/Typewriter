@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans');
-@import url('../fonts/DynamikGX.ttf=DynamikGX');
+
 
 @font-face {
 	    font-family: 'DynamikGX';
-	    src: url('../fonts/DynamikGX.ttf=DynamikGX')
+	    src: url('https://github.com/Dynamikotf/Typewriter/blob/master/fonts/DynamikGX.ttf')
 	
 	   font-family: 'DynamikGX';
 	   src:url('../fonts/DynamikGX.ttf');
