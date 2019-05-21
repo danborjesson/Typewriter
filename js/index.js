@@ -24,6 +24,8 @@ $(window).on("keypress", function(event) {
   $("span3").text(fontWeight); 
 });
 
+
+
 function updateScroll(){
     var element = document.getElementById("content");
     element.scrollTop = element.scrollHeight;
