@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans');
 
 @font-face {
-    font-family: 'DynamikGX';
-    src: url('https://github.com/Dynamikotf/Typewriter/blob/master/fonts/DynamikGX.ttf')
+
+   font-family: 'DynamikGX';
+   src:url('../fonts/DynamikGX.ttf');
+   font-weight: normal;
+   font-style: normal;
 }
 
 body {
@@ -19,7 +22,7 @@ body {
   width: 95.50%;
   font-size: 30px;
   line-height: 30px;
-  font-family: ibm-plex-sans, sans-serif;
+  font-family: 'DynamikGX';
   color: white;
   margin-top: 36px;
   overflow-x: hidden;
@@ -32,7 +35,7 @@ body {
   margin-left: 22px;
   background: black;
   color: white;
-  font-family: 'DynamikGX';
+  font-family: 'IBM Plex Mono', monospace;
   display: table;
   width: 100%;
 }
