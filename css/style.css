@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans');
-@import url('../fonts/DynamikGroteskGX.ttf=DynamikGX');
+@import url('../fonts/DynamikGroteskGX.ttf=DynamikGroteskGX');
 
 body {
   align-items: center;
@@ -15,7 +15,7 @@ body {
   width: 95.50%;
   font-size: 30px;
   line-height: 30px;
-  font-family: 'DynamikGX';
+  font-family: 'DynamikGroteskGX';
   color: white;
   margin-top: 36px;
   overflow-x: hidden;
